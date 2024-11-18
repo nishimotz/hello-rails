@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Rails",
+            "type": "rdbg",
+            "request": "launch",
+            "command": "bin/rails",
+            "script": "s",
+            "args": [
+                "-b",
+                "0.0.0.0"
+            ]
+        },
+        {
+            "name": "Debug Minitest with current file",
+            "type": "rdbg",
+            "request": "launch",
+            "command": "ruby",
+            "script": "${file}"
+        }
+    ]
+}
